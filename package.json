@@ -4,7 +4,7 @@
   "description": "Albert's config for javascript projects",
   "scripts": {
     "postinstall": "sharec",
-    "release": "clean-publish"
+    "clean-publish": "clean-publish"
   },
   "repository": {
     "type": "git",
