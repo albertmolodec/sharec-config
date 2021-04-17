@@ -13,3 +13,9 @@
 
 /tmp
 /temp
+
+# Ignore copied shared configs
+.eslintrc.js
+.editorconfig
+.prettierrc
+.stylelintrc
