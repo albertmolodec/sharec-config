@@ -1,0 +1,15 @@
+.DS_Store
+
+/node_modules
+
+.env
+
+.cache
+
+.vercel
+.next
+/dist
+/build
+
+/tmp
+/temp

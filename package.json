@@ -1,6 +1,6 @@
 {
   "name": "@albertmolodec/sharec-config",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Albert's config for javascript projects",
   "scripts": {
     "postinstall": "sharec",
