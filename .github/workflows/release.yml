@@ -20,6 +20,8 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 14
+        registry-url: https://npm.pkg.github.com/
+        scope: '@albertmolodec'
     - run: npm ci
     - run: npm run clean-publish
       env:
