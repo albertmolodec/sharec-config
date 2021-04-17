@@ -1,6 +1,6 @@
 {
   "name": "@albertmolodec/sharec-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Albert's config for javascript projects",
   "scripts": {
     "postinstall": "sharec",
@@ -19,6 +19,6 @@
     "clean-publish": "^2.1.1"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
