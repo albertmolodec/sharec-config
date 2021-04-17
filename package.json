@@ -1,0 +1,17 @@
+{
+  "name": "@albertmolodec/sharec-config",
+  "version": "0.1.0",
+  "description": "Albert's config for javascript projects",
+  "scripts": {
+    "postinstall": "sharec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertmolodec/sharec-config.git"
+  },
+  "author": "albertmolodec <hello@albert.works>",
+  "license": "MIT",
+  "dependencies": {
+    "sharec": "^2.9.0"
+  }
+}
