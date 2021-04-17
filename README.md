@@ -10,7 +10,9 @@ npm i -D @albertmolodec/sharec-config
 
 1. Make changes.
 2. Bump version in `package.json` according to SemVer.
-3. Stage, commit, push.
-4. Create new [release](https://github.com/albertmolodec/sharec-config/releases). Enter new version to **Release title** and **Tag version** fields. Click **Publish**.
+3. Stage.
+4. Commit.
+5. Create the same tag as package version with previx v: `vX.Y.Z`.
+6. Push.
 
-GitHub Actions will build new release and publish it to [GitHub Package Registry](https://github.com/albertmolodec/sharec-config/packages).
+GitHub Actions will create new release and publish it to [GitHub Package Registry](https://github.com/albertmolodec/sharec-config/packages).
