@@ -1,22 +1,18 @@
 {
   "name": "@albertmolodec/sharec-config",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Albert's config for javascript projects",
   "scripts": {
-    "postinstall": "sharec",
-    "clean-publish": "clean-publish"
+    "postinstall": "sharec"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/albertmolodec/sharec-config.git"
   },
-  "author": "albertmolodec <hello@albert.works>",
+  "author": "Albert Abdulmanov <hello@albert.works>",
   "license": "MIT",
   "dependencies": {
     "sharec": "^2.9.0"
-  },
-  "devDependencies": {
-    "clean-publish": "^2.1.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
