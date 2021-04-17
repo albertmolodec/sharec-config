@@ -1,11 +1,18 @@
-name: Create package from release and publish
+name: Release new version and publish to Github Packages
 on:
-  release:
-    types: ['released']
-  workflow_dispatch:
-    types: ['requested']
+  push:
+    tags:
+      - 'v*.*.*'
 jobs:
-  build-and-publish:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: softprops/action-gh-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  publish:
+    needs: release
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
