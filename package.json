@@ -1,6 +1,6 @@
 {
   "name": "@albertmolodec/sharec-config",
-  "version": "1.1.4-alpha.2",
+  "version": "1.2.0",
   "description": "Albert's config for javascript projects",
   "scripts": {
     "postinstall": "sharec"
@@ -22,7 +22,7 @@
     "sharec": "^2.9.0",
     "stylelint": "^13.12.0",
     "stylelint-a11y": "^1.2.3",
-    "stylelint-config-rational-order": "^0.0.4",
+    "stylelint-config-rational-order": "^0.1.2",
     "stylelint-order": "^4.1.0"
   },
   "publishConfig": {

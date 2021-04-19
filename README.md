@@ -6,6 +6,10 @@
 npm i -D @albertmolodec/sharec-config
 ```
 
+# Bugs
+
+This version has a problem with configs dependencies. They are don't installing to project correctly. So, I moved dependencies to root's `package.json`.
+
 ## Contributing
 
 1. Make changes.
