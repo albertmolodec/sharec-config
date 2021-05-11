@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/albertmolodec/sharec-config.git"
   },
-  "author": "Albert Abdulmanov <hello@albert.works>",
+  "author": "Albert Abdulmanov <hello@lbrt.me>",
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.22.0",
